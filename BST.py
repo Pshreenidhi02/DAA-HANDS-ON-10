@@ -67,7 +67,7 @@ class BinarySearchTree:
             self._inorder_traversal(current_node.right)
 
 
-# Testing the Binary Search Tree with different values
+
 def test_bst():
     print("Binary Search Tree Testing")
     bst = BinarySearchTree()
@@ -102,5 +102,5 @@ def test_bst():
     print("Search for 100:", "Found" if bst.search(100) else "Not Found")
 
 
-# Run the test
+
 test_bst()
